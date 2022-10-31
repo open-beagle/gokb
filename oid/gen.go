@@ -1,3 +1,4 @@
+//go:build ignore
 // +build ignore
 
 // Generate the table of OID values
@@ -12,7 +13,7 @@ import (
 	"os/exec"
 	"strings"
 
-	_ "kingbase.com/gokb"
+	_ "github.com/open-beagle/gokb"
 )
 
 // OID represent a kingbase Object Identifier Type.

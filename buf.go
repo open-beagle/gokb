@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"kingbase.com/gokb/oid"
+	"github.com/open-beagle/gokb/oid"
 )
 
 type readBuf []byte

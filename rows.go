@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"time"
 
-	"kingbase.com/gokb/oid"
+	"github.com/open-beagle/gokb/oid"
 )
 
 const headerSize = 4
